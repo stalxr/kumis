@@ -1,0 +1,231 @@
+html {
+  font-family: 'Montserrat';
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0.365vw;
+}
+
+::-webkit-scrollbar-track {
+  background: #5d8a96;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e7cdcd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.wrapper {
+  background-image: url('../assets/bg.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  column-gap: 0.521vw;
+  align-items: center;
+}
+.logo img{
+  width: 1.614vw;
+  height: 1.614vw;
+}
+.logo span {
+  transition-duration: 0.3s;
+}
+.logo span:hover {
+  color: bisque;
+}
+header {
+  padding-top: 1.042vw;
+  padding-left: 2.604vw;
+  padding-right: 2.604vw;
+  display: flex;
+  justify-content: space-between;
+  width: 76.563vw;
+}
+.logo span {
+  color: #000;
+  font-size: 1.25vw;
+  font-weight: 900;
+}
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 1.042vw;
+  color: #fff;
+  font-size: 0.781vw;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav span {
+  transition-duration: 0.3s;
+}
+nav span:hover {
+  cursor: pointer;
+  color: bisque;
+}
+main {
+  padding-left: 9.375vw;
+  padding-right: 9.375vw;
+}
+.first-section {
+  margin-top: 10.417vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.042vw;
+}
+.first-section div:nth-child(1) {
+  color: #2278d4;
+  font-size: 0.938vw;
+  font-style: normal;
+  font-weight: 400;
+}
+.first-section div:nth-child(2) {
+  color: #191b21;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 33.281vw;
+}
+.first-section div:nth-child(3) {
+  color: #191b21;
+  font-size: 0.833vw;
+  width: 26.615vw;
+  font-style: normal;
+  font-weight: 400;
+}
+.first-section button {
+  color: #fff;
+  font-size: 0.833vw;
+  font-weight: 600;
+  height: 1.563vw;
+  width: 10.417vw;
+  border: 0;
+  background-color: #22a75d;
+  border: 0.104vw solid #22a75d;
+
+  border-radius: 1.042vw;
+  transition-duration: 0.3s;
+}
+.first-section button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0.104vw solid black;
+  color: black;
+}
+.second-section {
+  margin-top: 18.75vw;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 31.25vw;
+  border-radius: 1.042vw;
+  height: 41.667vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(140deg, #d9d9d9 10.03%, #ccc9c9 82.06%);
+}
+.card-title {
+  color: #191b21;
+  margin-top: 3.646vw;
+  font-size: 1.875vw;
+  font-weight: 400;
+}
+.card-body {
+  margin-top: 1.615vw;
+  text-align: center;
+  width: 26.042vw;
+  color: #191b21;
+  font-size: 1.25vw;
+  font-weight: 400;
+}
+.card-image {
+  margin-top: 1.042vw;
+}
+.title1 span {
+  color: #22a75d;
+  font-family: Montserrat;
+  font-size: 1.875vw;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+.title2 span {
+  color: #2278d4;
+  font-family: Montserrat;
+  font-size: 1.875vw;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.563vw;
+  margin-top: 10.417vw;
+  height: 10.417vw;
+  background-color: #c4c4c4;
+  padding-left: 9.375vw;
+  padding-right: 9.375vw;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.521vw;
+}
+
+a{
+  color: #191b21;
+}
+.underline-one {
+	color: black; 
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; 
+    background-color: black; 
+    transition: width 0.5s; 
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; 
+    background-color: rgb(88, 2, 185); 
+    transition: width 0.5s;  
+}
+h1{
+  font-weight: bold;
+}
+.change-color-link{
+  color: #050100; 
+  font-size: 20px;
+  padding: 20px 0px;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; 
+}
+.change-color-link:hover{
+  color: #ffa000; 
+}
+     
